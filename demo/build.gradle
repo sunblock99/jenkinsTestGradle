@@ -2,7 +2,7 @@ plugins {
     id 'java'
     id 'org.springframework.boot' version '2.7.13-SNAPSHOT'
     id 'io.spring.dependency-management' version '1.0.15.RELEASE'
-    id 'application'
+    id 'bootJar'
 }
 
 group = 'com.example'
@@ -35,7 +35,7 @@ tasks.named('test') {
 }
 
 //@SpringBootApplication이 선언된 MainClass 설정
-application {
+bootJar {
     mainClassName = 'com.example.demo.DemoApplication'
 }
 
