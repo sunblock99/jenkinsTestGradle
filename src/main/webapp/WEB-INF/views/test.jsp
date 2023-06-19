@@ -9,6 +9,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>젠킨스 테스트 !!</h1>
+    <h1>젠킨스 테스트2 !!</h1>
 </body>
 </html>
