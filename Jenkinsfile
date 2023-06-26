@@ -25,6 +25,7 @@ pipeline{
 		stage("Deploy"){
 			steps{
 			sh """
+				#!/bin/bash
 				echo "Start Spring Boot Application!"
 				CURRENT_PID=\$(ps -ef | grep java | grep testPipeline | awk '{print \$2}')
 				echo "\$CURRENT_PID"
