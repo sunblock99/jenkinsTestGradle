@@ -36,7 +36,9 @@ pipeline{
 				    sleep 10
 				fi
 				echo "> 어플리케이션 배포 진행!"
-				nohup java -jar /var/lib/jenkins/workspace/testPipeline/build/libs/demo-0.0.1-SNAPSHOT.jar &
+
+				java -jar /var/lib/jenkins/workspace/testPipeline/build/libs/demo-0.0.1-SNAPSHOT.jar &
+				
 				echo "배포까지 성공 !!"
 				"""
 		}
