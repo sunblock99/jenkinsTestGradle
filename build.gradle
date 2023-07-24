@@ -30,6 +30,11 @@ dependencies {
     implementation 'javax.servlet:jstl'
 }
 
+  jar {
+      enabled = false
+  }
+
+
 tasks.named('test') {
     useJUnitPlatform()
 }
