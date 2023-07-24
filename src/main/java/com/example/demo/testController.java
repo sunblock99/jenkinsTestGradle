@@ -14,7 +14,7 @@ public class testController {
 
 	
 	@RequestMapping("/sunblock")
-	public String testtest() {
+	public String testtest2() {
 		System.out.println("저는 sunblock 호출입니다.");
 		return "test";
 	}
