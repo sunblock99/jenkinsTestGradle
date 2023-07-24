@@ -8,7 +8,7 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
-		System.out.println("테스트");
+		System.out.println("스프링부트 실행됐다 !! ");
 		
 	}
 
