@@ -18,4 +18,10 @@ public class testController {
 		System.out.println("저는 sunblock 호출입니다.");
 		return "test";
 	}
+
+	@GetMapping("/gyun")
+	public String testtest3() {
+		System.out.println("저는 sunblock 호출입니다.");
+		return "test";
+	}
 }
